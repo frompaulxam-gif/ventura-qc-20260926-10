@@ -8,8 +8,8 @@
           "id": "01-new",
           "label": "Cards",
           "reference": false,
-          "width": 65536,
-          "height": 4292542531,
+          "width": 1440,
+          "height": 951,
           "image": "media/01-fit.png",
           "source": "preview/#everyday"
         }
@@ -27,6 +27,21 @@
           "height": 827,
           "image": "media/02-new.png",
           "source": "preview/#contact"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "brand": "Desktop",
+      "variants": [
+        {
+          "id": "03-new",
+          "label": "Sweep + graphs",
+          "reference": false,
+          "width": 1280,
+          "height": 720,
+          "image": "media/03-new.png",
+          "source": "preview/?v=sweep-graphs#workflows"
         }
       ]
     }
