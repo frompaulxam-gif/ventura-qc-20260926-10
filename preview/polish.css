@@ -67,3 +67,6 @@ html body[data-surface=immersive][data-gradient=blue] .contact-section p{color:#
 html body[data-gradient=blue] .hero-wash{background:radial-gradient(ellipse at 5% 100%,#2362be,transparent 55%),#030c26!important}
 html body[data-theme=blue] .hero-grain{opacity:.48;mix-blend-mode:screen;background:radial-gradient(circle,#29bfff90 1.7px,transparent 2.5px);background-size:12px 12px;mask-image:radial-gradient(ellipse at 97% 3%,#000,transparent 43%),radial-gradient(ellipse at 0% 100%,#000,transparent 35%)}
 html body[data-theme=blue] .orb-mist{background:radial-gradient(ellipse at 20% 20%,#b0e9f9,transparent 50%),radial-gradient(ellipse at 80% 80%,#256bd2,transparent 60%),conic-gradient(#0445a4,#36becf,#092675,#8d9adb,#0445a4)!important}
+
+/* Match the navigation to the approved bold control typography. */
+html body .header nav a{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}
