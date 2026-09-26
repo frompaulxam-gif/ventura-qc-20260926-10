@@ -262,3 +262,8 @@
 .workflow-sweep .example-row[data-visible=true] .flow-art *{animation-play-state:running}
 .workflow-sweep[data-offscreen=true] .flow-art *{animation-play-state:paused!important}
 @media(prefers-reduced-motion:reduce){.workflow-sweep .flow-art *{animation:none!important}.workflow-sweep .graph-line{stroke-dashoffset:0;opacity:1}.workflow-sweep .graph-fill{opacity:.065}.workflow-sweep .graph-dot{opacity:1;transform:none}.workflow-sweep .graph-halo{display:none}.workflow-sweep .sorting-fill,.workflow-sweep .sorting-ready,.workflow-sweep .setup-fill,.workflow-sweep .setup-number,.workflow-sweep .enquiry-step{opacity:1;transform:none}.workflow-sweep .sorting-wait{display:none}}
+
+/* Reuse the hero renderer and its blue dot overlay without affecting the graphs. */
+.workflow-sweep::before{display:none}
+html body .workflow-sweep .workflow-background{position:absolute;inset:0;height:auto;width:100%;z-index:-1;pointer-events:none;overflow:hidden}
+.workflow-sweep .workflow-edge{z-index:1}
