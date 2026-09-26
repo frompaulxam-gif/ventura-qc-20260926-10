@@ -1,0 +1,1 @@
+Ventura round 10. Based on round 09 blue/orange preview. Removed the four card CTAs without changing card dimensions. Moved contact beneath cards, with UK number guidance and service options. Uses existing mailto flow; no instant call backend. Live motion is available in the working preview. Desktop review only; production unchanged.

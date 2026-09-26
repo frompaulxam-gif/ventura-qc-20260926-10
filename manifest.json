@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "code": "01",
+      "brand": "Desktop",
+      "variants": [
+        {
+          "id": "01-new",
+          "label": "Cards",
+          "reference": false,
+          "width": 1440,
+          "height": 827,
+          "image": "media/01-new.png",
+          "source": "preview/#everyday"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "brand": "Desktop",
+      "variants": [
+        {
+          "id": "02-new",
+          "label": "Contact",
+          "reference": false,
+          "width": 1440,
+          "height": 827,
+          "image": "media/02-new.png",
+          "source": "preview/#contact"
+        }
+      ]
+    }
+  ]
+}
