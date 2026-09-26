@@ -252,7 +252,7 @@
 .workflow-sweep::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 0 15%,#2077be75,transparent 40%),radial-gradient(ellipse at 95% 80%,#32b0c53a,transparent 48%);pointer-events:none}
 .workflow-sweep .workflow-edge{position:absolute;left:0;width:100%;height:115px;display:block;pointer-events:none}
 .workflow-sweep .workflow-edge-top{top:-1px;fill:#fbfcfd}
-.workflow-sweep .workflow-edge-bottom{bottom:-1px;fill:#edf2f7}
+.workflow-sweep .workflow-edge-bottom{bottom:-1px;fill:#fbfcfd}
 .workflow-sweep .examples-section.wrap{margin:auto;padding:0;width:min(1328px,calc(100% - 64px))}
 .workflow-sweep .example-rows{gap:28px}
 .workflow-sweep .example-row{scroll-margin-top:32px;border-radius:12px}
