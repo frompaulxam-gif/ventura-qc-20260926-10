@@ -8,10 +8,10 @@
           "id": "01-new",
           "label": "Cards",
           "reference": false,
-          "width": 1440,
-          "height": 951,
-          "image": "media/01-fit.png",
-          "source": "preview/#everyday"
+          "width": 1280,
+          "height": 500,
+          "image": "media/01-figures.png",
+          "source": "preview/?v=card-counts-1#everyday"
         }
       ]
     },
