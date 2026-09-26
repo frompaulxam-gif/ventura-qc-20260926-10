@@ -6,10 +6,10 @@
   const bookingRequestRate = 0.05;
   const monthlyEnquiries = enquiriesPerDay * workingDays;
   const figures = [
-    { value: monthlyEnquiries * minutesSavedPerEnquiry / 60, suffix: 'h', label: 'estimated time saved / month' },
-    { value: monthlyEnquiries, label: 'enquiries / month in this example' },
-    { value: monthlyEnquiries * bookingRequestRate, label: 'estimated booking requests / month' },
-    { value: 1, label: 'workflow to start with' }
+    { value: monthlyEnquiries * minutesSavedPerEnquiry / 60, suffix: 'h', label: 'TIME SAVED' },
+    { value: 100, suffix: '%', label: 'ENQUIRIES HANDLED' },
+    { value: bookingRequestRate * 100, suffix: '%', label: 'BOOKING REQUEST RATE' },
+    { value: 1, label: 'WORKFLOW TO START' }
   ];
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   const counters = [];
@@ -28,7 +28,7 @@
     stat.setAttribute('role', 'img');
     stat.setAttribute('aria-label', `${format(figure.value)} ${figure.label}`);
     stat.append(value, caption);
-    card.append(stat);
+    card.insertBefore(stat, card.querySelector('.card-copy'));
     value.textContent = format(figure.value);
     counters.push({ card, value, figure, format, frame: 0, finished: false });
   });
